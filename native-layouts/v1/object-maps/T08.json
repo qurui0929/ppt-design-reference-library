@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "template_sha256": "afe59c058004b77163fbfae4aba689a425fb38368242556919e7719fcbf28c7e",
+  "slide_part": "ppt/slides/slide1.xml",
+  "text_slots": [
+    {
+      "slot": "shape_23",
+      "shape_id": "23",
+      "name": "Rectangle 60",
+      "original_text": "Infographic",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_25",
+      "shape_id": "25",
+      "name": "文本框 24",
+      "original_text": "Layer - infographic",
+      "suggested_max_chars": 19,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_31",
+      "shape_id": "31",
+      "name": "TextBox 42",
+      "original_text": "A peep at some distant orb has power to raise and purify our thoughts like a strain of sacred music.",
+      "suggested_max_chars": 100,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_30",
+      "shape_id": "30",
+      "name": "TextBox 41",
+      "original_text": "A peep at some distant orb has power to raise and purify our thoughts like a strain of sacred music.",
+      "suggested_max_chars": 100,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_32",
+      "shape_id": "32",
+      "name": "TextBox 43",
+      "original_text": "A peep at some distant orb has power to raise our thoughts like a strain of sacred music.",
+      "suggested_max_chars": 89,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_29",
+      "shape_id": "29",
+      "name": "TextBox 40",
+      "original_text": "A peep at some distant orb has power to raise and purify our thoughts like a strain of sacred.",
+      "suggested_max_chars": 94,
+      "binding_status": "needs_semantic_mapping"
+    }
+  ],
+  "native_shapes": 19,
+  "native_connectors": 0,
+  "independent_images": 0,
+  "source_ref": "5239348225a255a3281e-131",
+  "editability_note": "Text/structure native where present; complex illustrations/photos retain source image objects."
+}

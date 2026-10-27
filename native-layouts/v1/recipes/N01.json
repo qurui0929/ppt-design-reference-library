@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "N01",
+  "canvas": [
+    1280,
+    720
+  ],
+  "background": "white",
+  "title": {
+    "box": [
+      0.06,
+      0.35,
+      0.65,
+      0.19
+    ],
+    "font_size": 50,
+    "bold": true,
+    "color": "ink"
+  },
+  "elements": [
+    {
+      "id": "rule",
+      "kind": "shape",
+      "box": [
+        0.06,
+        0.29,
+        0.09,
+        0.007
+      ],
+      "fill": "accent",
+      "stroke": "none",
+      "stroke_width": 0,
+      "geometry": "rect"
+    },
+    {
+      "id": "subtitle",
+      "kind": "text",
+      "box": [
+        0.06,
+        0.57,
+        0.68,
+        0.08
+      ],
+      "bind": "subtitle",
+      "font_size": 26,
+      "bold": false,
+      "color": "ink",
+      "align": "left",
+      "max_chars": 40
+    },
+    {
+      "id": "meta",
+      "kind": "text",
+      "box": [
+        0.06,
+        0.79,
+        0.68,
+        0.06
+      ],
+      "bind": "meta",
+      "font_size": 20,
+      "bold": false,
+      "color": "muted",
+      "align": "left",
+      "max_chars": 40
+    },
+    {
+      "id": "topic",
+      "kind": "text",
+      "box": [
+        0.76,
+        0.37,
+        0.17,
+        0.22
+      ],
+      "bind": "topic",
+      "font_size": 54,
+      "bold": true,
+      "color": "accent",
+      "align": "left",
+      "max_chars": 8
+    }
+  ]
+}

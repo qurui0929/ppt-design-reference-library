@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "template_sha256": "937e123945eacd8142cc4fea242a397f8afc66746609bf1b93ec3d78a62f7715",
+  "slide_part": "ppt/slides/slide1.xml",
+  "text_slots": [
+    {
+      "slot": "shape_3",
+      "shape_id": "3",
+      "name": "标题 2",
+      "original_text": "幻灯片内页版式",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_2",
+      "shape_id": "2",
+      "name": "灯片编号占位符 1",
+      "original_text": "1",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_14",
+      "shape_id": "14",
+      "name": "文本框 13",
+      "original_text": "2020",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_17",
+      "shape_id": "17",
+      "name": "文本框 16",
+      "original_text": "6月",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_21",
+      "shape_id": "21",
+      "name": "文本框 20",
+      "original_text": "7月",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_24",
+      "shape_id": "24",
+      "name": "文本框 23",
+      "original_text": "8月",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_27",
+      "shape_id": "27",
+      "name": "文本框 26",
+      "original_text": "9月",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_30",
+      "shape_id": "30",
+      "name": "文本框 29",
+      "original_text": "10月",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_33",
+      "shape_id": "33",
+      "name": "文本框 32",
+      "original_text": "11月",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_44",
+      "shape_id": "44",
+      "name": "同侧圆角矩形 43",
+      "original_text": "XXXXXXXXXXXXXXX",
+      "suggested_max_chars": 7,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_45",
+      "shape_id": "45",
+      "name": "矩形 44",
+      "original_text": "XXXXXXXXXXXXXXX",
+      "suggested_max_chars": 7,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_46",
+      "shape_id": "46",
+      "name": "文本框 45",
+      "original_text": "01",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_56",
+      "shape_id": "56",
+      "name": "矩形 55",
+      "original_text": "XXXXXXXXXXXXXXX",
+      "suggested_max_chars": 7,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_57",
+      "shape_id": "57",
+      "name": "同侧圆角矩形 56",
+      "original_text": "XXXXXXXXXXXXX",
+      "suggested_max_chars": 6,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_59",
+      "shape_id": "59",
+      "name": "文本框 58",
+      "original_text": "02",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_85",
+      "shape_id": "85",
+      "name": "文本框 84",
+      "original_text": "XXXXXXX",
+      "suggested_max_chars": 4,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_71",
+      "shape_id": "71",
+      "name": "矩形 70",
+      "original_text": "XXXXXXXXXXXXXXX",
+      "suggested_max_chars": 7,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_72",
+      "shape_id": "72",
+      "name": "同侧圆角矩形 71",
+      "original_text": "XXXXXXXXXXXX",
+      "suggested_max_chars": 6,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_74",
+      "shape_id": "74",
+      "name": "文本框 73",
+      "original_text": "03",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_91",
+      "shape_id": "91",
+      "name": "文本框 90",
+      "original_text": "XXXXXXX",
+      "suggested_max_chars": 4,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_15",
+      "shape_id": "15",
+      "name": "文本框 14",
+      "original_text": "2021",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_112",
+      "shape_id": "112",
+      "name": "文本框 111",
+      "original_text": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "suggested_max_chars": 20,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_117",
+      "shape_id": "117",
+      "name": "文本框 116",
+      "original_text": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "suggested_max_chars": 15,
+      "binding_status": "needs_semantic_mapping"
+    }
+  ],
+  "native_shapes": 37,
+  "native_connectors": 17,
+  "independent_images": 0,
+  "source_ref": "21647e14aca62b6ccd14-31",
+  "editability_note": "Text/structure native where present; complex illustrations/photos retain source image objects."
+}

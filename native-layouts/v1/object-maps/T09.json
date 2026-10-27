@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "template_sha256": "a66d25b5445bb8a127ae1dabf68767ab258d8257f0ce8d414b41872328f1c0b8",
+  "slide_part": "ppt/slides/slide1.xml",
+  "text_slots": [
+    {
+      "slot": "shape_17",
+      "shape_id": "17",
+      "name": "文本框 16",
+      "original_text": "区域办事处",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_18",
+      "shape_id": "18",
+      "name": "文本框 17",
+      "original_text": "质量管理",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_24",
+      "shape_id": "24",
+      "name": "文本框 23",
+      "original_text": "调度中心",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_25",
+      "shape_id": "25",
+      "name": "文本框 24",
+      "original_text": "车辆管理",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_29",
+      "shape_id": "29",
+      "name": "文本框 28",
+      "original_text": "安全技术",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_31",
+      "shape_id": "31",
+      "name": "文本框 30",
+      "original_text": "分线监控",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_55",
+      "shape_id": "55",
+      "name": "文本框 54",
+      "original_text": "工作对接",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_56",
+      "shape_id": "56",
+      "name": "文本框 55",
+      "original_text": "异常处理",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_36",
+      "shape_id": "36",
+      "name": "文本框 35",
+      "original_text": "组长",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_37",
+      "shape_id": "37",
+      "name": "文本框 36",
+      "original_text": "运营总经理",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_130",
+      "shape_id": "130",
+      "name": "文本框 129",
+      "original_text": "运作实施",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_131",
+      "shape_id": "131",
+      "name": "文本框 130",
+      "original_text": "日常管控",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_140",
+      "shape_id": "140",
+      "name": "文本框 139",
+      "original_text": "车辆维护",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_141",
+      "shape_id": "141",
+      "name": "文本框 140",
+      "original_text": "接收需求",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_146",
+      "shape_id": "146",
+      "name": "文本框 145",
+      "original_text": "司机考核",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_147",
+      "shape_id": "147",
+      "name": "文本框 146",
+      "original_text": "运力配置",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_152",
+      "shape_id": "152",
+      "name": "文本框 151",
+      "original_text": "员工安全培训",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_153",
+      "shape_id": "153",
+      "name": "文本框 152",
+      "original_text": "司机安全管理",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_158",
+      "shape_id": "158",
+      "name": "文本框 157",
+      "original_text": "线路风险预警",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_159",
+      "shape_id": "159",
+      "name": "文本框 158",
+      "original_text": "车辆在途监控",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_161",
+      "shape_id": "161",
+      "name": "文本框 160",
+      "original_text": "项目执行架构",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_33",
+      "shape_id": "33",
+      "name": "文本框 32",
+      "original_text": "副组长",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_34",
+      "shape_id": "34",
+      "name": "文本框 33",
+      "original_text": "运营副总",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    }
+  ],
+  "native_shapes": 59,
+  "native_connectors": 1,
+  "independent_images": 0,
+  "source_ref": "54b925088780cebb49dc-41",
+  "editability_note": "Text/structure native where present; complex illustrations/photos retain source image objects."
+}

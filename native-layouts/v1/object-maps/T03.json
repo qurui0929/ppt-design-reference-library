@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "template_sha256": "8b65f26d04a8ea65ce2ffac29aef24b2af86f5e4152fe4e3e185dd4d4186f75e",
+  "slide_part": "ppt/slides/slide1.xml",
+  "text_slots": [
+    {
+      "slot": "shape_14",
+      "shape_id": "14",
+      "name": "文本框 13",
+      "original_text": "01",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_13",
+      "shape_id": "13",
+      "name": "文本框 12",
+      "original_text": "XXXX",
+      "suggested_max_chars": 4,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_15",
+      "shape_id": "15",
+      "name": "文本框 14",
+      "original_text": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "suggested_max_chars": 28,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_68",
+      "shape_id": "68",
+      "name": "文本框 67",
+      "original_text": "02",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_69",
+      "shape_id": "69",
+      "name": "文本框 68",
+      "original_text": "XXXX",
+      "suggested_max_chars": 4,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_70",
+      "shape_id": "70",
+      "name": "文本框 69",
+      "original_text": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "suggested_max_chars": 28,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_76",
+      "shape_id": "76",
+      "name": "文本框 75",
+      "original_text": "03",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_77",
+      "shape_id": "77",
+      "name": "文本框 76",
+      "original_text": "XXXX",
+      "suggested_max_chars": 4,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_78",
+      "shape_id": "78",
+      "name": "文本框 77",
+      "original_text": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "suggested_max_chars": 28,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_84",
+      "shape_id": "84",
+      "name": "文本框 83",
+      "original_text": "04",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_85",
+      "shape_id": "85",
+      "name": "文本框 84",
+      "original_text": "XXXX",
+      "suggested_max_chars": 4,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_86",
+      "shape_id": "86",
+      "name": "文本框 85",
+      "original_text": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "suggested_max_chars": 28,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_4",
+      "shape_id": "4",
+      "name": "标题 3",
+      "original_text": "幻灯片内页版式",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_2",
+      "shape_id": "2",
+      "name": "灯片编号占位符 1",
+      "original_text": "1",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_87",
+      "shape_id": "87",
+      "name": "文本框 86",
+      "original_text": "--------------------------------------------------------------------",
+      "suggested_max_chars": 68,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_97",
+      "shape_id": "97",
+      "name": "椭圆 96",
+      "original_text": "XXX",
+      "suggested_max_chars": 4,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_137",
+      "shape_id": "137",
+      "name": "文本框 136",
+      "original_text": "XXX",
+      "suggested_max_chars": 4,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_138",
+      "shape_id": "138",
+      "name": "文本框 137",
+      "original_text": "XXX",
+      "suggested_max_chars": 4,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_139",
+      "shape_id": "139",
+      "name": "文本框 138",
+      "original_text": "XXX",
+      "suggested_max_chars": 4,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_140",
+      "shape_id": "140",
+      "name": "文本框 139",
+      "original_text": "XXX",
+      "suggested_max_chars": 4,
+      "binding_status": "needs_semantic_mapping"
+    }
+  ],
+  "native_shapes": 43,
+  "native_connectors": 0,
+  "independent_images": 0,
+  "source_ref": "21647e14aca62b6ccd14-21",
+  "editability_note": "Text/structure native where present; complex illustrations/photos retain source image objects."
+}

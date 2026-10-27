@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "recipe_example": {
+    "pages": 16,
+    "image_generation": false,
+    "native_tables": 3,
+    "native_charts": 1,
+    "embedded_chart_workbooks": 1,
+    "whole_slide_images": 0,
+    "powerpoint_open_export_pages": 16,
+    "structural_qa_passed": true,
+    "host_finalization_passed": true
+  },
+  "second_palette": {
+    "pages": 4,
+    "rendered": 4,
+    "structural_qa_passed": true
+  },
+  "templates": {
+    "pages": 9,
+    "native_text_replacement_tested": 9,
+    "source_parts_preserved_during_replacement": true,
+    "theme_preserving_merge_powerpoint_export": 9
+  },
+  "source_scan": {
+    "valid_pptx": 821,
+    "ignored_office_lock_files": 10,
+    "slides": 33838,
+    "visual_review_scope": "43 selected candidate previews; not all source pages"
+  },
+  "limitations": [
+    "User aesthetic approval is separate.",
+    "Template Office merging tested on Windows PowerPoint 16.0; other applications/platforms require validation.",
+    "Complex source illustrations/photos remain independent image objects."
+  ]
+}

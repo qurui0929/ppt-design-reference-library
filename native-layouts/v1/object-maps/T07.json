@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "template_sha256": "b4aab3af9ee1cbfb8361bdb5f390d16667e3817f86ba347a01920a51e84edbc7",
+  "slide_part": "ppt/slides/slide1.xml",
+  "text_slots": [
+    {
+      "slot": "shape_3",
+      "shape_id": "3",
+      "name": "标题 2",
+      "original_text": "幻灯片版式库",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_2",
+      "shape_id": "2",
+      "name": "灯片编号占位符 1",
+      "original_text": "1",
+      "suggested_max_chars": 12,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_6",
+      "shape_id": "6",
+      "name": "圆角矩形 5",
+      "original_text": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "suggested_max_chars": 32,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_7",
+      "shape_id": "7",
+      "name": "同侧圆角矩形 6",
+      "original_text": "XXXXXXXXXXXXX",
+      "suggested_max_chars": 6,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_23",
+      "shape_id": "23",
+      "name": "圆角矩形 22",
+      "original_text": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "suggested_max_chars": 32,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_24",
+      "shape_id": "24",
+      "name": "同侧圆角矩形 23",
+      "original_text": "XXXXXXXXXXXXX",
+      "suggested_max_chars": 6,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_26",
+      "shape_id": "26",
+      "name": "圆角矩形 25",
+      "original_text": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "suggested_max_chars": 32,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_27",
+      "shape_id": "27",
+      "name": "同侧圆角矩形 26",
+      "original_text": "XXXXXXXXXXXXX",
+      "suggested_max_chars": 6,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_30",
+      "shape_id": "30",
+      "name": "圆角矩形 29",
+      "original_text": "XXXXXXXXXXXXX",
+      "suggested_max_chars": 6,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_34",
+      "shape_id": "34",
+      "name": "圆角矩形 33",
+      "original_text": "XXXXXXXXXXXXX",
+      "suggested_max_chars": 6,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_37",
+      "shape_id": "37",
+      "name": "圆角矩形 36",
+      "original_text": "XXXXXXXXXXXXX",
+      "suggested_max_chars": 6,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_44",
+      "shape_id": "44",
+      "name": "Freeform 5",
+      "original_text": "XXXXXXX",
+      "suggested_max_chars": 4,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_54",
+      "shape_id": "54",
+      "name": "Freeform 5",
+      "original_text": "XXXXXXX",
+      "suggested_max_chars": 4,
+      "binding_status": "needs_semantic_mapping"
+    },
+    {
+      "slot": "shape_62",
+      "shape_id": "62",
+      "name": "Freeform 5",
+      "original_text": "XXXXXXX",
+      "suggested_max_chars": 4,
+      "binding_status": "needs_semantic_mapping"
+    }
+  ],
+  "native_shapes": 26,
+  "native_connectors": 0,
+  "independent_images": 0,
+  "source_ref": "21647e14aca62b6ccd14-11",
+  "editability_note": "Text/structure native where present; complex illustrations/photos retain source image objects."
+}

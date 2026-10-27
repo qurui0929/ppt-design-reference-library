@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "id": "N05",
+  "canvas": [
+    1280,
+    720
+  ],
+  "background": "white",
+  "title": {
+    "box": [
+      0.055,
+      0.055,
+      0.89,
+      0.09
+    ],
+    "font_size": 36,
+    "bold": true,
+    "color": "ink"
+  },
+  "elements": [
+    {
+      "id": "rail",
+      "kind": "shape",
+      "box": [
+        0.81,
+        0.24,
+        0.13,
+        0.58
+      ],
+      "fill": "accent",
+      "stroke": "none",
+      "stroke_width": 0,
+      "geometry": "rect"
+    },
+    {
+      "id": "railtext",
+      "kind": "text",
+      "box": [
+        0.836,
+        0.36,
+        0.08,
+        0.29
+      ],
+      "bind": "rail",
+      "font_size": 25,
+      "bold": true,
+      "color": "white",
+      "align": "left",
+      "max_chars": 14
+    },
+    {
+      "id": "band0",
+      "kind": "shape",
+      "box": [
+        0.055,
+        0.24,
+        0.71,
+        0.17
+      ],
+      "fill": "light",
+      "stroke": "none",
+      "stroke_width": 0,
+      "geometry": "rect"
+    },
+    {
+      "id": "layer0",
+      "kind": "text",
+      "box": [
+        0.075,
+        0.295,
+        0.15,
+        0.065
+      ],
+      "bind": "l0",
+      "font_size": 24,
+      "bold": true,
+      "color": "accent",
+      "align": "left",
+      "max_chars": 12
+    },
+    {
+      "id": "modules0",
+      "kind": "text",
+      "box": [
+        0.26,
+        0.274,
+        0.47,
+        0.1
+      ],
+      "bind": "m0",
+      "font_size": 23,
+      "bold": false,
+      "color": "ink",
+      "align": "left",
+      "max_chars": 48
+    },
+    {
+      "id": "band1",
+      "kind": "shape",
+      "box": [
+        0.055,
+        0.44499999999999995,
+        0.71,
+        0.17
+      ],
+      "fill": "light",
+      "stroke": "none",
+      "stroke_width": 0,
+      "geometry": "rect"
+    },
+    {
+      "id": "layer1",
+      "kind": "text",
+      "box": [
+        0.075,
+        0.49999999999999994,
+        0.15,
+        0.065
+      ],
+      "bind": "l1",
+      "font_size": 24,
+      "bold": true,
+      "color": "accent",
+      "align": "left",
+      "max_chars": 12
+    },
+    {
+      "id": "modules1",
+      "kind": "text",
+      "box": [
+        0.26,
+        0.479,
+        0.47,
+        0.1
+      ],
+      "bind": "m1",
+      "font_size": 23,
+      "bold": false,
+      "color": "ink",
+      "align": "left",
+      "max_chars": 48
+    },
+    {
+      "id": "band2",
+      "kind": "shape",
+      "box": [
+        0.055,
+        0.6499999999999999,
+        0.71,
+        0.17
+      ],
+      "fill": "light",
+      "stroke": "none",
+      "stroke_width": 0,
+      "geometry": "rect"
+    },
+    {
+      "id": "layer2",
+      "kind": "text",
+      "box": [
+        0.075,
+        0.705,
+        0.15,
+        0.065
+      ],
+      "bind": "l2",
+      "font_size": 24,
+      "bold": true,
+      "color": "accent",
+      "align": "left",
+      "max_chars": 12
+    },
+    {
+      "id": "modules2",
+      "kind": "text",
+      "box": [
+        0.26,
+        0.6839999999999999,
+        0.47,
+        0.1
+      ],
+      "bind": "m2",
+      "font_size": 23,
+      "bold": false,
+      "color": "ink",
+      "align": "left",
+      "max_chars": 48
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "id": "N11",
+  "canvas": [
+    1280,
+    720
+  ],
+  "background": "white",
+  "title": {
+    "box": [
+      0.055,
+      0.055,
+      0.89,
+      0.09
+    ],
+    "font_size": 36,
+    "bold": true,
+    "color": "ink"
+  },
+  "elements": [
+    {
+      "id": "comparison",
+      "kind": "table",
+      "box": [
+        0.055,
+        0.25,
+        0.89,
+        0.48
+      ],
+      "bind": "comparison",
+      "font_size": 22
+    },
+    {
+      "id": "note",
+      "kind": "text",
+      "box": [
+        0.055,
+        0.79,
+        0.89,
+        0.09
+      ],
+      "bind": "note",
+      "font_size": 23,
+      "bold": false,
+      "color": "muted",
+      "align": "left",
+      "max_chars": 60
+    }
+  ]
+}

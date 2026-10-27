@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "id": "N14",
+  "canvas": [
+    1280,
+    720
+  ],
+  "background": "white",
+  "title": {
+    "box": [
+      0.055,
+      0.055,
+      0.89,
+      0.09
+    ],
+    "font_size": 36,
+    "bold": true,
+    "color": "ink"
+  },
+  "elements": [
+    {
+      "id": "thesis",
+      "kind": "text",
+      "box": [
+        0.055,
+        0.25,
+        0.31,
+        0.34
+      ],
+      "bind": "thesis",
+      "font_size": 36,
+      "bold": true,
+      "color": "accent",
+      "align": "left",
+      "max_chars": 42
+    },
+    {
+      "id": "divider",
+      "kind": "shape",
+      "box": [
+        0.405,
+        0.25,
+        0.002,
+        0.55
+      ],
+      "fill": "rule",
+      "stroke": "none",
+      "stroke_width": 0,
+      "geometry": "rect"
+    },
+    {
+      "id": "h0",
+      "kind": "text",
+      "box": [
+        0.45,
+        0.25,
+        0.49,
+        0.06
+      ],
+      "bind": "h0",
+      "font_size": 25,
+      "bold": true,
+      "color": "ink",
+      "align": "left",
+      "max_chars": 22
+    },
+    {
+      "id": "b0",
+      "kind": "text",
+      "box": [
+        0.45,
+        0.33,
+        0.49,
+        0.08
+      ],
+      "bind": "b0",
+      "font_size": 22,
+      "bold": false,
+      "color": "ink",
+      "align": "left",
+      "max_chars": 58
+    },
+    {
+      "id": "h1",
+      "kind": "text",
+      "box": [
+        0.45,
+        0.44,
+        0.49,
+        0.06
+      ],
+      "bind": "h1",
+      "font_size": 25,
+      "bold": true,
+      "color": "ink",
+      "align": "left",
+      "max_chars": 22
+    },
+    {
+      "id": "b1",
+      "kind": "text",
+      "box": [
+        0.45,
+        0.52,
+        0.49,
+        0.08
+      ],
+      "bind": "b1",
+      "font_size": 22,
+      "bold": false,
+      "color": "ink",
+      "align": "left",
+      "max_chars": 58
+    },
+    {
+      "id": "h2",
+      "kind": "text",
+      "box": [
+        0.45,
+        0.63,
+        0.49,
+        0.06
+      ],
+      "bind": "h2",
+      "font_size": 25,
+      "bold": true,
+      "color": "ink",
+      "align": "left",
+      "max_chars": 22
+    },
+    {
+      "id": "b2",
+      "kind": "text",
+      "box": [
+        0.45,
+        0.71,
+        0.49,
+        0.08
+      ],
+      "bind": "b2",
+      "font_size": 22,
+      "bold": false,
+      "color": "ink",
+      "align": "left",
+      "max_chars": 58
+    }
+  ]
+}

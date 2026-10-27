@@ -1,0 +1,780 @@
+{
+  "schema_version": 1,
+  "version": "1.0.0",
+  "created": "2026-10-27",
+  "scope": "16 neutral native recipes + 9 source-native editable one-slide templates. References/large assets are separate from the skill.",
+  "review_note": "Agent reviewed selected references and actual rendered samples; not user aesthetic approval or full-source-library visual review.",
+  "items": [
+    {
+      "id": "N01",
+      "name": "项目汇报与方案说明",
+      "relations": [
+        "cover"
+      ],
+      "composition": "asymmetric-cover",
+      "source_ref": "21647e14aca62b6ccd14-51",
+      "review_status": "agent_reviewed",
+      "native_status": "render_reviewed",
+      "items_range": [
+        1,
+        2
+      ],
+      "max_chars": 100,
+      "fit_note": "适合简短主题与副标题，封面无需硬塞信息。",
+      "recipe": {
+        "path": "native-layouts/v1/recipes/N01.json",
+        "sha256": "7f825701129c28d64d3d8773e97fb1d28b52651687db94e186c5bd6f51e6090a"
+      },
+      "reference": {
+        "path": "native-layouts/v1/references/21647e14aca62b6ccd14-51.jpg",
+        "sha256": "9ded05bc8b3bd56de0f0aec18f867174a2e2d16bb2a0138e62769a12adcbc307"
+      },
+      "preview": {
+        "path": "native-layouts/v1/previews/N01.png",
+        "sha256": "0144eb564b3ad31d1e2b84354a47cde2e2d9d2463d9793324dc7da73d620f087"
+      },
+      "review_scope": "reference composition overview + native example full-size render",
+      "native_verification": "PowerPoint 16.0 final-file PNG export; native package/font/chart/table gates passed for the 16-page sample.",
+      "adaptation_note": "Neutral structural interpretation; not an exact copy of the original reference design."
+    },
+    {
+      "id": "N02",
+      "name": "汇报内容",
+      "relations": [
+        "agenda"
+      ],
+      "composition": "vertical-agenda",
+      "source_ref": "d922929b92d2b5e37aac-1",
+      "review_status": "agent_reviewed",
+      "native_status": "render_reviewed",
+      "items_range": [
+        4,
+        4
+      ],
+      "max_chars": 180,
+      "fit_note": "四个章节，章节名与说明分开，阅读顺序从上到下。",
+      "recipe": {
+        "path": "native-layouts/v1/recipes/N02.json",
+        "sha256": "20155e92a9016b617e67f21a8a63627628dfbdf938e1910643c6edc76824bc41"
+      },
+      "preview": {
+        "path": "native-layouts/v1/previews/N02.png",
+        "sha256": "bc79b758c037cdb42c0c3be6188581d382b45ffebe37d6953558a0d01fe0c9b0"
+      },
+      "review_scope": "reference composition overview + native example full-size render",
+      "native_verification": "PowerPoint 16.0 final-file PNG export; native package/font/chart/table gates passed for the 16-page sample.",
+      "adaptation_note": "Neutral structural interpretation; not an exact copy of the original reference design."
+    },
+    {
+      "id": "N03",
+      "name": "项目实施流程",
+      "relations": [
+        "process"
+      ],
+      "composition": "horizontal-sequence",
+      "source_ref": "21647e14aca62b6ccd14-6",
+      "review_status": "agent_reviewed",
+      "native_status": "render_reviewed",
+      "items_range": [
+        4,
+        4
+      ],
+      "max_chars": 250,
+      "fit_note": "四步单线顺序，每步短标题加说明；复杂分支改用泳道。",
+      "recipe": {
+        "path": "native-layouts/v1/recipes/N03.json",
+        "sha256": "8b248d5fc7cfa621c45c1ffc2a116fdea448fbdc62be6f6afe1023c6815e0a1f"
+      },
+      "reference": {
+        "path": "native-layouts/v1/references/21647e14aca62b6ccd14-6.jpg",
+        "sha256": "ec8ea1705e5d242f7c89419967ae221e1151132bf6f64d6079c1de0fc4cac41c"
+      },
+      "preview": {
+        "path": "native-layouts/v1/previews/N03.png",
+        "sha256": "31a54d163e8e1a397a9747373ee6a1b40359bd4df2af4ad56c67fe39ecac7fbc"
+      },
+      "review_scope": "reference composition overview + native example full-size render",
+      "native_verification": "PowerPoint 16.0 final-file PNG export; native package/font/chart/table gates passed for the 16-page sample.",
+      "adaptation_note": "Neutral structural interpretation; not an exact copy of the original reference design."
+    },
+    {
+      "id": "N04",
+      "name": "跨部门协同流程",
+      "relations": [
+        "process"
+      ],
+      "composition": "swimlane-table",
+      "source_ref": "54b925088780cebb49dc-41",
+      "review_status": "agent_reviewed",
+      "native_status": "render_reviewed",
+      "items_range": [
+        2,
+        5
+      ],
+      "max_chars": 350,
+      "fit_note": "职责与阶段双维关系；表格可直接编辑，不能伪造责任归属。",
+      "recipe": {
+        "path": "native-layouts/v1/recipes/N04.json",
+        "sha256": "edcfae13fbfe24b93025f26a40affef3c4fd2c10d0f83b84da758181ab9d45c0"
+      },
+      "reference": {
+        "path": "native-layouts/v1/references/54b925088780cebb49dc-41.jpg",
+        "sha256": "d548dd3f2cc0007636c4d4ed6b3be42790f6f340e112d6ed0e4462bd35082117"
+      },
+      "preview": {
+        "path": "native-layouts/v1/previews/N04.png",
+        "sha256": "6048194db432a458ba54955fbe4428e8faeb16a5d06927c1dd24594d00fa5eb5"
+      },
+      "review_scope": "reference composition overview + native example full-size render",
+      "native_verification": "PowerPoint 16.0 final-file PNG export; native package/font/chart/table gates passed for the 16-page sample.",
+      "adaptation_note": "Neutral structural interpretation; not an exact copy of the original reference design."
+    },
+    {
+      "id": "N05",
+      "name": "平台总体架构",
+      "relations": [
+        "architecture"
+      ],
+      "composition": "layer-stack-side-rail",
+      "source_ref": "54b925088780cebb49dc-31",
+      "review_status": "agent_reviewed",
+      "native_status": "render_reviewed",
+      "items_range": [
+        3,
+        3
+      ],
+      "max_chars": 240,
+      "fit_note": "三层体系与贯穿保障；模块文本表达同层并列，不暗示先后。",
+      "recipe": {
+        "path": "native-layouts/v1/recipes/N05.json",
+        "sha256": "c6811aa6b86176d28f033d87fd48e2d4b2be0c44977fac0293dc25f3ba5e204f"
+      },
+      "reference": {
+        "path": "native-layouts/v1/references/54b925088780cebb49dc-31.jpg",
+        "sha256": "e9ba26d9dfdeb1f5da047f5608cb85ea837918243cb7e8d2ca13c800598b587f"
+      },
+      "preview": {
+        "path": "native-layouts/v1/previews/N05.png",
+        "sha256": "c1033a95151cecfd1475eb091f660f07a430cbd52d9f436a09e78cd9400d5f75"
+      },
+      "review_scope": "reference composition overview + native example full-size render",
+      "native_verification": "PowerPoint 16.0 final-file PNG export; native package/font/chart/table gates passed for the 16-page sample.",
+      "adaptation_note": "Neutral structural interpretation; not an exact copy of the original reference design."
+    },
+    {
+      "id": "N06",
+      "name": "项目组织与职责",
+      "relations": [
+        "architecture"
+      ],
+      "composition": "tree-hierarchy",
+      "source_ref": "54b925088780cebb49dc-41",
+      "review_status": "agent_reviewed",
+      "native_status": "render_reviewed",
+      "items_range": [
+        4,
+        4
+      ],
+      "max_chars": 220,
+      "fit_note": "一个上级与四个分工对象；连线表示组织关系。",
+      "recipe": {
+        "path": "native-layouts/v1/recipes/N06.json",
+        "sha256": "7b4cd6a051e4c9be5da798dbf0bd7efe7cc8b7abfc8b3718361d73c73f4e44f0"
+      },
+      "reference": {
+        "path": "native-layouts/v1/references/54b925088780cebb49dc-41.jpg",
+        "sha256": "d548dd3f2cc0007636c4d4ed6b3be42790f6f340e112d6ed0e4462bd35082117"
+      },
+      "preview": {
+        "path": "native-layouts/v1/previews/N06.png",
+        "sha256": "0d13940ae491433e0efaf6bd24f98e5ce959f5d126d10bacb815c697f4fe6a1d"
+      },
+      "review_scope": "reference composition overview + native example full-size render",
+      "native_verification": "PowerPoint 16.0 final-file PNG export; native package/font/chart/table gates passed for the 16-page sample.",
+      "adaptation_note": "Neutral structural interpretation; not an exact copy of the original reference design."
+    },
+    {
+      "id": "N07",
+      "name": "多方协同关系",
+      "relations": [
+        "hub",
+        "relationship"
+      ],
+      "composition": "hub-surround",
+      "source_ref": "54b925088780cebb49dc-101",
+      "review_status": "agent_reviewed",
+      "native_status": "render_reviewed",
+      "items_range": [
+        4,
+        4
+      ],
+      "max_chars": 220,
+      "fit_note": "中心与四周对象有关联；没有实际中心关系时不要使用。",
+      "recipe": {
+        "path": "native-layouts/v1/recipes/N07.json",
+        "sha256": "171bc1f88d46a46feb5307e0764abb3f64aee2d92053657dec72f852afd77c13"
+      },
+      "reference": {
+        "path": "native-layouts/v1/references/54b925088780cebb49dc-101.jpg",
+        "sha256": "15122d401d7ad1238a3d8668c314b7a92e3ddb452505e567defca007cdc9eb35"
+      },
+      "preview": {
+        "path": "native-layouts/v1/previews/N07.png",
+        "sha256": "6c3343b5ffb769e774f6e7951c653df8d1b1e9fb71ae454c025dc17831cfd181"
+      },
+      "review_scope": "reference composition overview + native example full-size render",
+      "native_verification": "PowerPoint 16.0 final-file PNG export; native package/font/chart/table gates passed for the 16-page sample.",
+      "adaptation_note": "Neutral structural interpretation; not an exact copy of the original reference design."
+    },
+    {
+      "id": "N08",
+      "name": "持续改进闭环",
+      "relations": [
+        "process",
+        "relationship"
+      ],
+      "composition": "rectangular-loop",
+      "source_ref": "21647e14aca62b6ccd14-21",
+      "review_status": "agent_reviewed",
+      "native_status": "render_reviewed",
+      "items_range": [
+        4,
+        4
+      ],
+      "max_chars": 160,
+      "fit_note": "四环节闭环，返回箭头具有实际语义。",
+      "recipe": {
+        "path": "native-layouts/v1/recipes/N08.json",
+        "sha256": "420e9160c0c6aae143ff8726bfb76765aee643446b9f64ee3e139902added853"
+      },
+      "reference": {
+        "path": "native-layouts/v1/references/21647e14aca62b6ccd14-21.jpg",
+        "sha256": "eb1dd29e94d4e7117503b81b37c8840a68bcf3c8cdcf7318ced58ef81b57d915"
+      },
+      "preview": {
+        "path": "native-layouts/v1/previews/N08.png",
+        "sha256": "c0bf2cac7ad6ba2dc02ff6d086b71028ba330de67e0585624a29e0ad8ee52c18"
+      },
+      "review_scope": "reference composition overview + native example full-size render",
+      "native_verification": "PowerPoint 16.0 final-file PNG export; native package/font/chart/table gates passed for the 16-page sample.",
+      "adaptation_note": "Neutral structural interpretation; not an exact copy of the original reference design."
+    },
+    {
+      "id": "N09",
+      "name": "阶段推进路径",
+      "relations": [
+        "timeline"
+      ],
+      "composition": "alternating-timeline",
+      "source_ref": "54b925088780cebb49dc-1",
+      "review_status": "agent_reviewed",
+      "native_status": "render_reviewed",
+      "items_range": [
+        4,
+        4
+      ],
+      "max_chars": 240,
+      "fit_note": "离散阶段等距展示；需要真实历时比例时改配方。",
+      "recipe": {
+        "path": "native-layouts/v1/recipes/N09.json",
+        "sha256": "37b5b9b6e1e08de75c2ab910cdd81e9575234f0ca7d26e23aeeded479090e1ce"
+      },
+      "preview": {
+        "path": "native-layouts/v1/previews/N09.png",
+        "sha256": "7b7b34aa0cccb290bedf293350f3ad66733caf6109cb98f0ea5db6d5951ab28c"
+      },
+      "review_scope": "reference composition overview + native example full-size render",
+      "native_verification": "PowerPoint 16.0 final-file PNG export; native package/font/chart/table gates passed for the 16-page sample.",
+      "adaptation_note": "Neutral structural interpretation; not an exact copy of the original reference design."
+    },
+    {
+      "id": "N10",
+      "name": "任务与阶段安排",
+      "relations": [
+        "timeline",
+        "planning"
+      ],
+      "composition": "gantt-table",
+      "source_ref": "21647e14aca62b6ccd14-31",
+      "review_status": "agent_reviewed",
+      "native_status": "render_reviewed",
+      "items_range": [
+        3,
+        6
+      ],
+      "max_chars": 320,
+      "fit_note": "任务与阶段矩阵，时间长度由源数据定义。",
+      "recipe": {
+        "path": "native-layouts/v1/recipes/N10.json",
+        "sha256": "5a4170f898f76e1000d53c1c301ed64e537f71842e5554453c18497c836a03db"
+      },
+      "reference": {
+        "path": "native-layouts/v1/references/21647e14aca62b6ccd14-31.jpg",
+        "sha256": "677bacb603bcf3c6bd6fb21f3135296ca6bdf20bf115de758903acbe49183167"
+      },
+      "preview": {
+        "path": "native-layouts/v1/previews/N10.png",
+        "sha256": "a49c4656062a2b3ef8a77b2a6043bef4a6a683d526413cfb45107ea4261d9ee5"
+      },
+      "review_scope": "reference composition overview + native example full-size render",
+      "native_verification": "PowerPoint 16.0 final-file PNG export; native package/font/chart/table gates passed for the 16-page sample.",
+      "adaptation_note": "Neutral structural interpretation; not an exact copy of the original reference design."
+    },
+    {
+      "id": "N11",
+      "name": "方案对比与选择",
+      "relations": [
+        "comparison"
+      ],
+      "composition": "comparison-table",
+      "source_ref": "d922929b92d2b5e37aac-57",
+      "review_status": "agent_reviewed",
+      "native_status": "render_reviewed",
+      "items_range": [
+        2,
+        4
+      ],
+      "max_chars": 350,
+      "fit_note": "对比维度一致；结论必须有依据，不能自动推荐。",
+      "recipe": {
+        "path": "native-layouts/v1/recipes/N11.json",
+        "sha256": "e4b011a8b169e351d0b68f023d6f34a2080c5012aad6de377bc5028d5133d2e8"
+      },
+      "preview": {
+        "path": "native-layouts/v1/previews/N11.png",
+        "sha256": "3fcea0c93623ee20e66d73cf1c46c31e9541e5d9a71d728ec454af8603b6488c"
+      },
+      "review_scope": "reference composition overview + native example full-size render",
+      "native_verification": "PowerPoint 16.0 final-file PNG export; native package/font/chart/table gates passed for the 16-page sample.",
+      "adaptation_note": "Neutral structural interpretation; not an exact copy of the original reference design."
+    },
+    {
+      "id": "N12",
+      "name": "任务优先级分析",
+      "relations": [
+        "matrix",
+        "comparison"
+      ],
+      "composition": "four-quadrant",
+      "source_ref": "5239348225a255a3281e-118",
+      "review_status": "agent_reviewed",
+      "native_status": "render_reviewed",
+      "items_range": [
+        4,
+        4
+      ],
+      "max_chars": 240,
+      "fit_note": "二维分类，不把无数值的示意象限误称定量评分。",
+      "recipe": {
+        "path": "native-layouts/v1/recipes/N12.json",
+        "sha256": "fd57c506db932ea3ba7be165753f739be9f59f5bcba4d87827ea272b523d1c84"
+      },
+      "preview": {
+        "path": "native-layouts/v1/previews/N12.png",
+        "sha256": "13b6623f5bfb662d6c6d817fc1848d5b2a6a28486e4d20d0faef58a440daa06f"
+      },
+      "review_scope": "reference composition overview + native example full-size render",
+      "native_verification": "PowerPoint 16.0 final-file PNG export; native package/font/chart/table gates passed for the 16-page sample.",
+      "adaptation_note": "Neutral structural interpretation; not an exact copy of the original reference design."
+    },
+    {
+      "id": "N13",
+      "name": "数据趋势与分析",
+      "relations": [
+        "data"
+      ],
+      "composition": "chart-with-commentary",
+      "source_ref": "54b925088780cebb49dc-61",
+      "review_status": "agent_reviewed",
+      "native_status": "render_reviewed",
+      "items_range": [
+        1,
+        4
+      ],
+      "max_chars": 180,
+      "fit_note": "完整数据才可绘图；保留类别、序列、单位与来源。",
+      "recipe": {
+        "path": "native-layouts/v1/recipes/N13.json",
+        "sha256": "56d8233f3237d9c49dfb54e83e6acd013d732f6bed742712d0b9b18200606969"
+      },
+      "preview": {
+        "path": "native-layouts/v1/previews/N13.png",
+        "sha256": "4ab777330d41256723edbcecdfc448fe7fc987806f95b70725eb51942d774ddc"
+      },
+      "review_scope": "reference composition overview + native example full-size render",
+      "native_verification": "PowerPoint 16.0 final-file PNG export; native package/font/chart/table gates passed for the 16-page sample.",
+      "adaptation_note": "Neutral structural interpretation; not an exact copy of the original reference design."
+    },
+    {
+      "id": "N14",
+      "name": "观点与支撑依据",
+      "relations": [
+        "text",
+        "analysis"
+      ],
+      "composition": "editorial-split",
+      "source_ref": "d922929b92d2b5e37aac-25",
+      "review_status": "agent_reviewed",
+      "native_status": "render_reviewed",
+      "items_range": [
+        3,
+        3
+      ],
+      "max_chars": 280,
+      "fit_note": "一个主观点与三段支撑，适合文字密度中等的说明页。",
+      "recipe": {
+        "path": "native-layouts/v1/recipes/N14.json",
+        "sha256": "f614c78fa936f2f1600c6b117ff608497169024f02127f738b1ef88ebf63335d"
+      },
+      "preview": {
+        "path": "native-layouts/v1/previews/N14.png",
+        "sha256": "c9c0b97ea2f4e56df1a0935698675d93f97e5711034ef8d3749c1852405869b2"
+      },
+      "review_scope": "reference composition overview + native example full-size render",
+      "native_verification": "PowerPoint 16.0 final-file PNG export; native package/font/chart/table gates passed for the 16-page sample.",
+      "adaptation_note": "Neutral structural interpretation; not an exact copy of the original reference design."
+    },
+    {
+      "id": "N15",
+      "name": "问题、原因与措施",
+      "relations": [
+        "analysis",
+        "comparison"
+      ],
+      "composition": "problem-cause-action",
+      "source_ref": "54b925088780cebb49dc-81",
+      "review_status": "agent_reviewed",
+      "native_status": "render_reviewed",
+      "items_range": [
+        3,
+        3
+      ],
+      "max_chars": 320,
+      "fit_note": "逐行对应，不让问题、原因和措施各自脱节。",
+      "recipe": {
+        "path": "native-layouts/v1/recipes/N15.json",
+        "sha256": "f3bfd0feeb0ffcefad14e498cae4cd86136accb23f8630f0adba5482ac3d87c8"
+      },
+      "preview": {
+        "path": "native-layouts/v1/previews/N15.png",
+        "sha256": "19e9742e599a71a194107d64606168ffaeb77a52273ace9a959c140ac2c86841"
+      },
+      "review_scope": "reference composition overview + native example full-size render",
+      "native_verification": "PowerPoint 16.0 final-file PNG export; native package/font/chart/table gates passed for the 16-page sample.",
+      "adaptation_note": "Neutral structural interpretation; not an exact copy of the original reference design."
+    },
+    {
+      "id": "N16",
+      "name": "范围与层级关系",
+      "relations": [
+        "relationship",
+        "architecture"
+      ],
+      "composition": "nested-scope",
+      "source_ref": "d922929b92d2b5e37aac-57",
+      "review_status": "agent_reviewed",
+      "native_status": "render_reviewed",
+      "items_range": [
+        3,
+        3
+      ],
+      "max_chars": 180,
+      "fit_note": "真实包含关系，不用嵌套图暗示无依据的优劣与演进。",
+      "recipe": {
+        "path": "native-layouts/v1/recipes/N16.json",
+        "sha256": "e8ad2f167b0f0f33ef0ab4dad9f0362679842e42e8cec16159f80bdfb532018f"
+      },
+      "preview": {
+        "path": "native-layouts/v1/previews/N16.png",
+        "sha256": "83af7dc5faede8830800538fb6dd689f444722e6eb576e967adab6ba16fcefd8"
+      },
+      "review_scope": "reference composition overview + native example full-size render",
+      "native_verification": "PowerPoint 16.0 final-file PNG export; native package/font/chart/table gates passed for the 16-page sample.",
+      "adaptation_note": "Neutral structural interpretation; not an exact copy of the original reference design."
+    },
+    {
+      "id": "T01",
+      "name": "四步流程与支撑说明",
+      "relations": [
+        "process"
+      ],
+      "composition": "native-four-stage",
+      "source_ref": "21647e14aca62b6ccd14-6",
+      "review_status": "agent_reviewed",
+      "review_scope": "exported slide composition; source is an existing user-supplied template",
+      "native_status": "powerpoint_open_export_verified",
+      "items_range": [
+        4,
+        4
+      ],
+      "max_chars": 160,
+      "fit_note": "保留源页面原生构图，先查看预览并建立语义字段映射；文字和结构可编辑，复杂图像保留独立图片。",
+      "template": {
+        "path": "native-layouts/v1/templates/T01.pptx",
+        "sha256": "1015f7761aa1b93302cfa2e74bf1ea601cb70e39b7c2807871fccaf69f2a3341"
+      },
+      "object_map": {
+        "path": "native-layouts/v1/object-maps/T01.json",
+        "sha256": "4127a3581289d72ead0b1f4975ee97ddedd5c46ed081c372ed8650428084f2ea"
+      },
+      "preview": {
+        "path": "native-layouts/v1/previews/T01.png",
+        "sha256": "8d235ebc02560485bcf06c5b477d52da86f9538c73e3378d0c4e3d586d1f9d09"
+      }
+    },
+    {
+      "id": "T02",
+      "name": "道路式阶段推进",
+      "relations": [
+        "timeline",
+        "planning"
+      ],
+      "composition": "native-curved-road",
+      "source_ref": "21647e14aca62b6ccd14-16",
+      "review_status": "agent_reviewed",
+      "review_scope": "exported slide composition; source is an existing user-supplied template",
+      "native_status": "powerpoint_open_export_verified",
+      "items_range": [
+        5,
+        5
+      ],
+      "max_chars": 119,
+      "fit_note": "保留源页面原生构图，先查看预览并建立语义字段映射；文字和结构可编辑，复杂图像保留独立图片。",
+      "template": {
+        "path": "native-layouts/v1/templates/T02.pptx",
+        "sha256": "f27525175b6a0c6f1e72cff067040a3fc99ea2865cac4fef6917827f7785346f"
+      },
+      "object_map": {
+        "path": "native-layouts/v1/object-maps/T02.json",
+        "sha256": "5b314898ed804fc4f5abb2d953929218ab855efe0c3423959dec822c193e0e17"
+      },
+      "preview": {
+        "path": "native-layouts/v1/previews/T02.png",
+        "sha256": "eda5bb88c13c198acc628e097203577366aa3b2bdc7e827cf9c62fb01c5daa42"
+      }
+    },
+    {
+      "id": "T03",
+      "name": "环形闭环与分项说明",
+      "relations": [
+        "process",
+        "relationship"
+      ],
+      "composition": "native-ring-callouts",
+      "source_ref": "21647e14aca62b6ccd14-21",
+      "review_status": "agent_reviewed",
+      "review_scope": "exported slide composition; source is an existing user-supplied template",
+      "native_status": "powerpoint_open_export_verified",
+      "items_range": [
+        4,
+        4
+      ],
+      "max_chars": 288,
+      "fit_note": "保留源页面原生构图，先查看预览并建立语义字段映射；文字和结构可编辑，复杂图像保留独立图片。",
+      "template": {
+        "path": "native-layouts/v1/templates/T03.pptx",
+        "sha256": "8b65f26d04a8ea65ce2ffac29aef24b2af86f5e4152fe4e3e185dd4d4186f75e"
+      },
+      "object_map": {
+        "path": "native-layouts/v1/object-maps/T03.json",
+        "sha256": "22b0bb2c7ade12be4b10aa129a465097627548a1876f7b15fab0bf2edc0591ce"
+      },
+      "preview": {
+        "path": "native-layouts/v1/previews/T03.png",
+        "sha256": "fec4e45f1ac31aadf3f972554a7c36da35f513fd98f8e9b91569f68e90ca388b"
+      }
+    },
+    {
+      "id": "T04",
+      "name": "时间轴与任务进度",
+      "relations": [
+        "timeline",
+        "planning"
+      ],
+      "composition": "native-timeline-gantt",
+      "source_ref": "21647e14aca62b6ccd14-31",
+      "review_status": "agent_reviewed",
+      "review_scope": "exported slide composition; source is an existing user-supplied template",
+      "native_status": "powerpoint_open_export_verified",
+      "items_range": [
+        3,
+        3
+      ],
+      "max_chars": 239,
+      "fit_note": "保留源页面原生构图，先查看预览并建立语义字段映射；文字和结构可编辑，复杂图像保留独立图片。",
+      "template": {
+        "path": "native-layouts/v1/templates/T04.pptx",
+        "sha256": "937e123945eacd8142cc4fea242a397f8afc66746609bf1b93ec3d78a62f7715"
+      },
+      "object_map": {
+        "path": "native-layouts/v1/object-maps/T04.json",
+        "sha256": "dafcb3bf6422353df5ea494345b8108af630a4a0bc41228e5cb6e6916aa5ab52"
+      },
+      "preview": {
+        "path": "native-layouts/v1/previews/T04.png",
+        "sha256": "7181fda28372e349c5225cfebc508fd326ae8450aa1515a1bc0f010c06514ce5"
+      }
+    },
+    {
+      "id": "T05",
+      "name": "双向协同与闭环",
+      "relations": [
+        "relationship",
+        "process"
+      ],
+      "composition": "native-infinity",
+      "source_ref": "21647e14aca62b6ccd14-41",
+      "review_status": "agent_reviewed",
+      "review_scope": "exported slide composition; source is an existing user-supplied template",
+      "native_status": "powerpoint_open_export_verified",
+      "items_range": [
+        8,
+        8
+      ],
+      "max_chars": 180,
+      "fit_note": "保留源页面原生构图，先查看预览并建立语义字段映射；文字和结构可编辑，复杂图像保留独立图片。",
+      "template": {
+        "path": "native-layouts/v1/templates/T05.pptx",
+        "sha256": "d295bdbcbd454c54457b73a2948ade6ed85b3b5b9239c385454876261b89bf5a"
+      },
+      "object_map": {
+        "path": "native-layouts/v1/object-maps/T05.json",
+        "sha256": "814cbb94765f93b796d2a684093b31dbe30b656123c506c98917fd65aed7fe1e"
+      },
+      "preview": {
+        "path": "native-layouts/v1/previews/T05.png",
+        "sha256": "7c638eb4da1b0e2cdfce700b8be9e9259e246609053e987381f1d8f6c395523f"
+      }
+    },
+    {
+      "id": "T06",
+      "name": "双侧对照与图片证据",
+      "relations": [
+        "comparison",
+        "evidence"
+      ],
+      "composition": "native-bilateral-evidence",
+      "source_ref": "21647e14aca62b6ccd14-46",
+      "review_status": "agent_reviewed",
+      "review_scope": "exported slide composition; source is an existing user-supplied template",
+      "native_status": "powerpoint_open_export_verified",
+      "items_range": [
+        3,
+        3
+      ],
+      "max_chars": 102,
+      "fit_note": "保留源页面原生构图，先查看预览并建立语义字段映射；文字和结构可编辑，复杂图像保留独立图片。",
+      "template": {
+        "path": "native-layouts/v1/templates/T06.pptx",
+        "sha256": "6bed1a623761368ff987edba94122ab4080aa5bb5e8d785ee91370a84eba9134"
+      },
+      "object_map": {
+        "path": "native-layouts/v1/object-maps/T06.json",
+        "sha256": "9e6bc094ab7491df7e245023ac13338f20782c804160c3b4ba09ad0598aedf55"
+      },
+      "preview": {
+        "path": "native-layouts/v1/previews/T06.png",
+        "sha256": "a7061da736757317864eae7cc592fd29da9588e9f06e7e49dfe5e4e71a3dc062"
+      }
+    },
+    {
+      "id": "T07",
+      "name": "三组能力与支撑",
+      "relations": [
+        "architecture",
+        "parallel"
+      ],
+      "composition": "native-three-pillars",
+      "source_ref": "21647e14aca62b6ccd14-11",
+      "review_status": "agent_reviewed",
+      "review_scope": "exported slide composition; source is an existing user-supplied template",
+      "native_status": "powerpoint_open_export_verified",
+      "items_range": [
+        3,
+        3
+      ],
+      "max_chars": 168,
+      "fit_note": "保留源页面原生构图，先查看预览并建立语义字段映射；文字和结构可编辑，复杂图像保留独立图片。",
+      "template": {
+        "path": "native-layouts/v1/templates/T07.pptx",
+        "sha256": "b4aab3af9ee1cbfb8361bdb5f390d16667e3817f86ba347a01920a51e84edbc7"
+      },
+      "object_map": {
+        "path": "native-layouts/v1/object-maps/T07.json",
+        "sha256": "0d94de5336bb2e194e0c5058293062335019fcd1add92a26c4444535616779fc"
+      },
+      "preview": {
+        "path": "native-layouts/v1/previews/T07.png",
+        "sha256": "137dce40b154c747d40409fce258f726eb9d98a71a884749dacc00c8c70e1e3f"
+      }
+    },
+    {
+      "id": "T08",
+      "name": "分层支撑与逐层说明",
+      "relations": [
+        "architecture"
+      ],
+      "composition": "native-layer-depth",
+      "source_ref": "5239348225a255a3281e-131",
+      "review_status": "agent_reviewed",
+      "review_scope": "exported slide composition; source is an existing user-supplied template",
+      "native_status": "powerpoint_open_export_verified",
+      "items_range": [
+        4,
+        4
+      ],
+      "max_chars": 414,
+      "fit_note": "保留源页面原生构图，先查看预览并建立语义字段映射；文字和结构可编辑，复杂图像保留独立图片。",
+      "template": {
+        "path": "native-layouts/v1/templates/T08.pptx",
+        "sha256": "afe59c058004b77163fbfae4aba689a425fb38368242556919e7719fcbf28c7e"
+      },
+      "object_map": {
+        "path": "native-layouts/v1/object-maps/T08.json",
+        "sha256": "e4c419ed27d63594a1c8f9e2d2dc3cab3966b0dabc42c23caf6c23dfb2565cd4"
+      },
+      "preview": {
+        "path": "native-layouts/v1/previews/T08.png",
+        "sha256": "1862c786d20c5c38498ed39d7892186447e63dad1a12c2e36ef320b976fdc789"
+      }
+    },
+    {
+      "id": "T09",
+      "name": "多级项目组织架构",
+      "relations": [
+        "architecture"
+      ],
+      "composition": "native-org-tree",
+      "source_ref": "54b925088780cebb49dc-41",
+      "review_status": "agent_reviewed",
+      "review_scope": "exported slide composition; source is an existing user-supplied template",
+      "native_status": "powerpoint_open_export_verified",
+      "items_range": [
+        6,
+        6
+      ],
+      "max_chars": 276,
+      "fit_note": "保留源页面原生构图，先查看预览并建立语义字段映射；文字和结构可编辑，复杂图像保留独立图片。",
+      "template": {
+        "path": "native-layouts/v1/templates/T09.pptx",
+        "sha256": "a66d25b5445bb8a127ae1dabf68767ab258d8257f0ce8d414b41872328f1c0b8"
+      },
+      "object_map": {
+        "path": "native-layouts/v1/object-maps/T09.json",
+        "sha256": "867094ca39781316fe4798ab2a501a872ab75be82521b044ed24fb3268113a70"
+      },
+      "preview": {
+        "path": "native-layouts/v1/previews/T09.png",
+        "sha256": "534f7d175e1381ab993ac33921b44bf5cd1d43a0ab24bd2ede8320ee8712c38d"
+      }
+    }
+  ],
+  "counts": {
+    "native_recipes": 16,
+    "source_native_templates": 9,
+    "source_reference_previews": 16,
+    "indexed_local_decks": 821,
+    "indexed_local_slides": 33838,
+    "candidate_preview_pages_reviewed": 43
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "id": "N13",
+  "canvas": [
+    1280,
+    720
+  ],
+  "background": "white",
+  "title": {
+    "box": [
+      0.055,
+      0.055,
+      0.89,
+      0.09
+    ],
+    "font_size": 36,
+    "bold": true,
+    "color": "ink"
+  },
+  "elements": [
+    {
+      "id": "trend",
+      "kind": "chart",
+      "box": [
+        0.055,
+        0.25,
+        0.61,
+        0.56
+      ],
+      "bind": "trend"
+    },
+    {
+      "id": "unit",
+      "kind": "text",
+      "box": [
+        0.055,
+        0.185,
+        0.45,
+        0.045
+      ],
+      "bind": "unit",
+      "font_size": 19,
+      "bold": false,
+      "color": "muted",
+      "align": "left",
+      "max_chars": 25
+    },
+    {
+      "id": "finding",
+      "kind": "text",
+      "box": [
+        0.72,
+        0.27,
+        0.22,
+        0.1
+      ],
+      "bind": "finding",
+      "font_size": 27,
+      "bold": true,
+      "color": "accent",
+      "align": "left",
+      "max_chars": 20
+    },
+    {
+      "id": "analysis",
+      "kind": "text",
+      "box": [
+        0.72,
+        0.43,
+        0.22,
+        0.26
+      ],
+      "bind": "analysis",
+      "font_size": 22,
+      "bold": false,
+      "color": "ink",
+      "align": "left",
+      "max_chars": 75
+    }
+  ]
+}

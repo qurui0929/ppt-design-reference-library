@@ -1,0 +1,340 @@
+{
+  "schema_version": 1,
+  "id": "N09",
+  "canvas": [
+    1280,
+    720
+  ],
+  "background": "white",
+  "title": {
+    "box": [
+      0.055,
+      0.055,
+      0.89,
+      0.09
+    ],
+    "font_size": 36,
+    "bold": true,
+    "color": "ink"
+  },
+  "elements": [
+    {
+      "id": "timeline",
+      "kind": "shape",
+      "box": [
+        0.095,
+        0.52,
+        0.81,
+        0.004
+      ],
+      "fill": "accent",
+      "stroke": "none",
+      "stroke_width": 0,
+      "geometry": "rect"
+    },
+    {
+      "id": "dot0",
+      "kind": "shape",
+      "box": [
+        0.11000000000000001,
+        0.503,
+        0.022,
+        0.04
+      ],
+      "fill": "accent",
+      "stroke": "none",
+      "stroke_width": 0,
+      "geometry": "ellipse"
+    },
+    {
+      "id": "stem0",
+      "kind": "shape",
+      "box": [
+        0.12000000000000001,
+        0.45,
+        0.0015,
+        0.07
+      ],
+      "fill": "accent",
+      "stroke": "none",
+      "stroke_width": 0,
+      "geometry": "rect"
+    },
+    {
+      "id": "date0",
+      "kind": "text",
+      "box": [
+        0.07,
+        0.245,
+        0.2,
+        0.06
+      ],
+      "bind": "d0",
+      "font_size": 28,
+      "bold": true,
+      "color": "accent",
+      "align": "left",
+      "max_chars": 12
+    },
+    {
+      "id": "h0",
+      "kind": "text",
+      "box": [
+        0.07,
+        0.315,
+        0.2,
+        0.055
+      ],
+      "bind": "h0",
+      "font_size": 23,
+      "bold": true,
+      "color": "ink",
+      "align": "left",
+      "max_chars": 14
+    },
+    {
+      "id": "b0",
+      "kind": "text",
+      "box": [
+        0.07,
+        0.375,
+        0.2,
+        0.09
+      ],
+      "bind": "b0",
+      "font_size": 20,
+      "bold": false,
+      "color": "ink",
+      "align": "left",
+      "max_chars": 27
+    },
+    {
+      "id": "dot1",
+      "kind": "shape",
+      "box": [
+        0.335,
+        0.503,
+        0.022,
+        0.04
+      ],
+      "fill": "accent",
+      "stroke": "none",
+      "stroke_width": 0,
+      "geometry": "ellipse"
+    },
+    {
+      "id": "stem1",
+      "kind": "shape",
+      "box": [
+        0.34500000000000003,
+        0.52,
+        0.0015,
+        0.045
+      ],
+      "fill": "accent",
+      "stroke": "none",
+      "stroke_width": 0,
+      "geometry": "rect"
+    },
+    {
+      "id": "date1",
+      "kind": "text",
+      "box": [
+        0.29500000000000004,
+        0.59,
+        0.2,
+        0.06
+      ],
+      "bind": "d1",
+      "font_size": 28,
+      "bold": true,
+      "color": "accent",
+      "align": "left",
+      "max_chars": 12
+    },
+    {
+      "id": "h1",
+      "kind": "text",
+      "box": [
+        0.29500000000000004,
+        0.6599999999999999,
+        0.2,
+        0.055
+      ],
+      "bind": "h1",
+      "font_size": 23,
+      "bold": true,
+      "color": "ink",
+      "align": "left",
+      "max_chars": 14
+    },
+    {
+      "id": "b1",
+      "kind": "text",
+      "box": [
+        0.29500000000000004,
+        0.72,
+        0.2,
+        0.09
+      ],
+      "bind": "b1",
+      "font_size": 20,
+      "bold": false,
+      "color": "ink",
+      "align": "left",
+      "max_chars": 27
+    },
+    {
+      "id": "dot2",
+      "kind": "shape",
+      "box": [
+        0.56,
+        0.503,
+        0.022,
+        0.04
+      ],
+      "fill": "accent",
+      "stroke": "none",
+      "stroke_width": 0,
+      "geometry": "ellipse"
+    },
+    {
+      "id": "stem2",
+      "kind": "shape",
+      "box": [
+        0.5700000000000001,
+        0.45,
+        0.0015,
+        0.07
+      ],
+      "fill": "accent",
+      "stroke": "none",
+      "stroke_width": 0,
+      "geometry": "rect"
+    },
+    {
+      "id": "date2",
+      "kind": "text",
+      "box": [
+        0.52,
+        0.245,
+        0.2,
+        0.06
+      ],
+      "bind": "d2",
+      "font_size": 28,
+      "bold": true,
+      "color": "accent",
+      "align": "left",
+      "max_chars": 12
+    },
+    {
+      "id": "h2",
+      "kind": "text",
+      "box": [
+        0.52,
+        0.315,
+        0.2,
+        0.055
+      ],
+      "bind": "h2",
+      "font_size": 23,
+      "bold": true,
+      "color": "ink",
+      "align": "left",
+      "max_chars": 14
+    },
+    {
+      "id": "b2",
+      "kind": "text",
+      "box": [
+        0.52,
+        0.375,
+        0.2,
+        0.09
+      ],
+      "bind": "b2",
+      "font_size": 20,
+      "bold": false,
+      "color": "ink",
+      "align": "left",
+      "max_chars": 27
+    },
+    {
+      "id": "dot3",
+      "kind": "shape",
+      "box": [
+        0.7850000000000001,
+        0.503,
+        0.022,
+        0.04
+      ],
+      "fill": "accent",
+      "stroke": "none",
+      "stroke_width": 0,
+      "geometry": "ellipse"
+    },
+    {
+      "id": "stem3",
+      "kind": "shape",
+      "box": [
+        0.7950000000000002,
+        0.52,
+        0.0015,
+        0.045
+      ],
+      "fill": "accent",
+      "stroke": "none",
+      "stroke_width": 0,
+      "geometry": "rect"
+    },
+    {
+      "id": "date3",
+      "kind": "text",
+      "box": [
+        0.7450000000000001,
+        0.59,
+        0.2,
+        0.06
+      ],
+      "bind": "d3",
+      "font_size": 28,
+      "bold": true,
+      "color": "accent",
+      "align": "left",
+      "max_chars": 12
+    },
+    {
+      "id": "h3",
+      "kind": "text",
+      "box": [
+        0.7450000000000001,
+        0.6599999999999999,
+        0.2,
+        0.055
+      ],
+      "bind": "h3",
+      "font_size": 23,
+      "bold": true,
+      "color": "ink",
+      "align": "left",
+      "max_chars": 14
+    },
+    {
+      "id": "b3",
+      "kind": "text",
+      "box": [
+        0.7450000000000001,
+        0.72,
+        0.2,
+        0.09
+      ],
+      "bind": "b3",
+      "font_size": 20,
+      "bold": false,
+      "color": "ink",
+      "align": "left",
+      "max_chars": 27
+    }
+  ]
+}
