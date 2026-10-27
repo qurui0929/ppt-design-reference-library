@@ -1,0 +1,4 @@
+interface:
+  display_name: "参考案例直出 PPT"
+  short_description: "从精选案例选择多样版式，直接制作原生可编辑商务汇报，不经过生图"
+  default_prompt: "使用 $reference-driven-ppt，根据我的材料匹配案例版式，直接制作可编辑 PPT，不调用生图。"
