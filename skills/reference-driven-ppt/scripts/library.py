@@ -1,73 +1,80 @@
-"""Small, pinned GitHub reference index + selective, verified offline cache."""
-import argparse, hashlib, json, os, sys, tempfile, urllib.error, urllib.parse, urllib.request
-from pathlib import Path, PurePosixPath
-CONFIG=Path(__file__).resolve().parents[1]/'references'/'library.json'
+"""Fetch a lightweight pinned index, search Chinese source names, download chosen originals."""
+import argparse,hashlib,json,os,sys,tempfile,urllib.parse,urllib.request
+from pathlib import Path,PurePosixPath
+
+CONFIG=Path(__file__).resolve().parents[1]/'references/library.json'
 def read(p):return json.loads(Path(p).read_text(encoding='utf-8-sig'))
-def digest(b):return hashlib.sha256(b).hexdigest()
-def safe_path(root,rel):
-    p=PurePosixPath(rel)
-    if p.is_absolute() or '..' in p.parts or '\\' in rel or ':' in rel:raise ValueError('Unsafe cache path')
-    return root.joinpath(*p.parts)
-def atomic(p,b):
-    p.parent.mkdir(parents=True,exist_ok=True)
-    with tempfile.NamedTemporaryFile(dir=p.parent,delete=False) as f:f.write(b);name=f.name
-    os.replace(name,p)
-def get(cfg,rel,expected):
-    repo=cfg['repository'];ref=cfg['ref'];q=urllib.parse.quote(rel,safe='/');last=None
-    urls=[f'https://raw.githubusercontent.com/{repo}/{ref}/{q}',f'https://api.github.com/repos/{repo}/contents/{q}?ref={urllib.parse.quote(ref)}']
-    for u in urls:
-      try:
-        headers={'User-Agent':'reference-driven-ppt/1.0','Accept':'application/vnd.github.raw+json'}
-        with urllib.request.urlopen(urllib.request.Request(u,headers=headers),timeout=25) as r:b=r.read(32*1024*1024+1)
-        if len(b)>32*1024*1024:raise ValueError('Asset exceeds 32 MiB')
-        if digest(b)!=expected:raise ValueError('SHA-256 mismatch: '+rel)
-        return b
-      except (OSError,ValueError) as e:last=e
-    raise RuntimeError(f'Cannot fetch verified asset {rel}: {last}')
-def sync(cfg,cache,offline=False):
-    p=cache/'catalog.json';sha=cfg['catalog_sha256']
-    if p.exists() and digest(p.read_bytes())==sha:return read(p)
-    if offline:raise RuntimeError('No verified catalog available offline')
-    b=get(cfg,cfg['catalog_path'],sha);data=json.loads(b)
-    if data.get('schema_version')!=1:raise ValueError('Unsupported catalog schema')
-    atomic(p,b);return data
-def fetch(cfg,cache,entry,offline=False):
-    paths={}
-    for role in ['recipe','preview','reference','template','object_map']:
-      asset=entry.get(role)
-      if not asset:continue
-      dest=safe_path(cache,asset['path'])
-      if not dest.exists() or digest(dest.read_bytes())!=asset['sha256']:
-        if offline:raise RuntimeError('Missing/corrupt offline asset '+asset['path'])
-        atomic(dest,get(cfg,asset['path'],asset['sha256']))
-      paths[role]=str(dest.resolve())
-    return paths
-def search(cat,relation,items,chars,limit,exclude):
-    hits=[]
-    for e in cat['items']:
-      if e['id'] in exclude:continue
-      if relation and relation not in e['relations']:continue
-      low,high=e.get('items_range',[0,100])
-      if items is not None and not low<=items<=high:continue
-      if chars is not None and chars>e['max_chars']:continue
-      score=100-abs((items if items is not None else low)-(low+high)/2)*4
-      if chars is not None:score-=max(0,(e['max_chars']-chars)/max(e['max_chars'],1))*8
-      if e.get('native_status')=='render_reviewed':score+=5
-      hits.append({'id':e['id'],'name':e['name'],'score':round(score,2),'relations':e['relations'],'items_range':[low,high],'max_chars':e['max_chars'],'composition':e['composition'],'review_status':e['review_status'],'native_status':e.get('native_status'),'fit_note':e['fit_note']})
-    return sorted(hits,key=lambda e:-e['score'])[:limit]
+def sha(path):
+    h=hashlib.sha256()
+    with Path(path).open('rb') as f:
+        for b in iter(lambda:f.read(4*1024*1024),b''):h.update(b)
+    return h.hexdigest()
+def download(url,dest,expected,size=None):
+    urls=url if isinstance(url,list) else [url]
+    errors=[]
+    for source in urls:
+        try:return download_one(source,dest,expected,size)
+        except (OSError,ValueError) as e:errors.append(str(e))
+    raise RuntimeError('Unable to fetch verified asset: '+'; '.join(errors))
+def download_one(url,dest,expected,size=None):
+    dest=Path(dest);dest.parent.mkdir(parents=True,exist_ok=True)
+    if dest.exists() and sha(dest)==expected:return str(dest.resolve())
+    temp=None
+    try:
+        request=urllib.request.Request(url,headers={'User-Agent':'reference-driven-ppt/2.0','Accept':'application/octet-stream'})
+        with urllib.request.urlopen(request,timeout=120) as r,tempfile.NamedTemporaryFile(dir=dest.parent,delete=False) as f:
+            temp=Path(f.name);h=hashlib.sha256();count=0
+            for b in iter(lambda:r.read(4*1024*1024),b''):
+                f.write(b);h.update(b);count+=len(b)
+        if h.hexdigest()!=expected or (size is not None and count!=size):raise ValueError('Downloaded file size or SHA-256 mismatch')
+        os.replace(temp,dest);return str(dest.resolve())
+    finally:
+        if temp and temp.exists():temp.unlink()
+def sync(cfg,cache,offline):
+    p=cache/'catalog-v2.json'
+    if not p.exists() or sha(p)!=cfg['catalog_sha256']:
+        if offline:raise ValueError('No verified catalog in offline cache')
+        url='https://raw.githubusercontent.com/'+cfg['repository']+'/'+cfg['ref']+'/'+urllib.parse.quote(cfg['catalog_path'],safe='/')
+        download(url,p,cfg['catalog_sha256'])
+    cat=read(p)
+    if cat.get('schema_version')!=2:raise ValueError('Expected original-source library schema 2')
+    return cat
+def destination(cache,relative):
+    p=PurePosixPath(relative)
+    if p.is_absolute() or '..' in p.parts or '\\' in relative or ':' in relative:raise ValueError('Unsafe relative path')
+    return cache/'originals'/Path(*p.parts)
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--config',default=str(CONFIG));sub=ap.add_subparsers(dest='cmd',required=True)
-    for name in ['sync','search','fetch']:
-      p=sub.add_parser(name);p.add_argument('--cache',required=True);p.add_argument('--offline',action='store_true')
-      if name=='search':p.add_argument('--relation');p.add_argument('--items',type=int);p.add_argument('--chars',type=int);p.add_argument('--limit',type=int,default=5);p.add_argument('--exclude',nargs='*',default=[])
-      if name=='fetch':p.add_argument('--ids',nargs='+',required=True)
+    for cmd in ['sync','search','fetch']:
+        p=sub.add_parser(cmd);p.add_argument('--cache',required=True);p.add_argument('--offline',action='store_true')
+        if cmd=='search':p.add_argument('--category',choices=['00模板','01ppt组件','10综合灵感、竞品']);p.add_argument('--query',default='');p.add_argument('--limit',type=int,default=20)
+        if cmd=='fetch':p.add_argument('--ids',nargs='+',required=True)
     a=ap.parse_args();cfg=read(a.config);cache=Path(a.cache);cat=sync(cfg,cache,a.offline)
-    if a.cmd=='sync':result={'catalog':str((cache/'catalog.json').resolve()),'version':cat['version'],'items':len(cat['items']),'pinned_ref':cfg['ref']}
-    elif a.cmd=='search':result=search(cat,a.relation,a.items,a.chars,a.limit,a.exclude)
+    if a.cmd=='sync':result={'version':cat['version'],'files':len(cat['items']),'catalog':str((cache/'catalog-v2.json').resolve())}
+    elif a.cmd=='search':
+        terms=a.query.lower().split()
+        result=[{k:e[k] for k in ['id','name','relative_path','category','subcategory','bytes','review_status']} for e in cat['items'] if (not a.category or e['category']==a.category) and all(t in e['relative_path'].lower() for t in terms)][:a.limit]
     else:
-      entries={e['id']:e for e in cat['items']};missing=set(a.ids)-entries.keys()
-      if missing:raise ValueError('Unknown IDs: '+','.join(sorted(missing)))
-      result={id:fetch(cfg,cache,entries[id],a.offline) for id in a.ids}
+        entries={e['id']:e for e in cat['items']};result={}
+        for id in a.ids:
+            if id not in entries:raise ValueError('Unknown source ID: '+id)
+            e=entries[id];p=destination(cache,e['relative_path'])
+            if a.offline:
+                if not p.exists() or sha(p)!=e['sha256']:raise ValueError('Missing or corrupt cached original: '+id)
+                result[id]=str(p.resolve())
+            else:
+                assets=e.get('assets',[])
+                if len(assets)<=1:result[id]=download([u for u in [e.get('api_url'),e['url']] if u],p,e['sha256'],e['bytes'])
+                else:
+                    parts=[Path(download([u for u in [x.get('api_url'),x['url']] if u],cache/'parts'/x['asset_name'],x['sha256'],x['bytes'])) for x in assets]
+                    p.parent.mkdir(parents=True,exist_ok=True)
+                    with tempfile.NamedTemporaryFile(dir=p.parent,delete=False) as out:
+                        tmp=Path(out.name)
+                        for part in parts:
+                            with part.open('rb') as src:
+                                for b in iter(lambda:src.read(4*1024*1024),b''):out.write(b)
+                    if sha(tmp)!=e['sha256']:tmp.unlink();raise ValueError('Reassembled original SHA-256 mismatch')
+                    os.replace(tmp,p);result[id]=str(p.resolve())
     print(json.dumps(result,ensure_ascii=False,indent=2))
 if __name__=='__main__':
     try:main()

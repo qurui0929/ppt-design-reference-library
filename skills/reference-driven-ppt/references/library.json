@@ -1,10 +1,10 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "repository": "qurui0929/ppt-design-reference-library",
-  "ref": "aae96461620ba405b9be1f10f574ec00328c56c4",
-  "catalog_path": "native-layouts/v1/catalog.json",
-  "catalog_sha256": "d0acc9dca02fd73729d499a746750b9259d57e1ba212e0126c22b971d3fa6443",
-  "version": "1.0.0",
-  "fetch_policy": "catalog first; selected case assets only; verified offline cache permitted",
-  "cache_location": "caller-provided project cache; no author-specific absolute path"
+  "ref": "eee9926d197f75448eb399250885b3aa4e03bffe",
+  "catalog_path": "library/v2/catalog.json",
+  "catalog_sha256": "79065877d55c423df6a184cd4591757361d69a1c7634f21c25bcec7102d1845e",
+  "version": "2.0.0",
+  "fetch_policy": "index first; fetch selected originals only; verify SHA-256; preserve Chinese source paths",
+  "release_tag": "reference-library-v2"
 }
